@@ -6,6 +6,9 @@ rvm:
   - 2.1
   - 2.2
   - jruby-19mode
+env:
+  - EXECJS_RUNTIME=Node
+  - EXECJS_RUNTIME=
 
 gemfile:
   - Gemfile
